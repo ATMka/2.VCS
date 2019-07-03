@@ -40,4 +40,7 @@ public class Animals implements AnimalsImpl {
     public void runForDesert(){
         System.out.println("Это же собака! В пустыне она не живет.");
     }
+    public void walkingOnStreet(int age, String name){
+        System.out.println(getName() + " решил погулять по улице. И это в свои " + getAge() + " лет!");
+    }
 }

@@ -34,7 +34,11 @@ public class Animals implements AnimalsImpl {
     }
 
     public void runForRoad(){
-        System.out.println(getName() +  " слишком долго передвигается, этому животному уже " + getAge() + " лет!");
+        System.out.println(getName() +  " очень быстро бежит по дороге, хотя этому псу уже " + getAge() + " лет!");
+    }
+
+    public void Stay(){
+        System.out.println("Просто посижу");
     }
 
     public void runForDesert(){

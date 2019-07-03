@@ -7,6 +7,5 @@ public class FirstClass {
         System.out.println("Здесь еще должен был быть экземпляр класса Animals, но в master его нет.");
         Animals dog = new Animals(29, "Бобик");
         dog.runForRoad();
-        dog.runForRoad();
     }
 }

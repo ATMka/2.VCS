@@ -32,8 +32,12 @@ public class Animals implements AnimalsImpl {
                 "age=" + age +
                 '}';
     }
-    @Override
+
     public void runForRoad(){
         System.out.println(getName() +  " слишком долго передвигается, этому животному уже " + getAge() + " лет!");
+    }
+
+    public void runForDesert(){
+        System.out.println("Это же собака! В пустыне она не живет.");
     }
 }

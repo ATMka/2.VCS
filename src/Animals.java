@@ -34,6 +34,6 @@ public class Animals implements AnimalsImpl {
     }
     @Override
     public void runForRoad(){
-        System.out.println(getName() +  " очень быстро бежит по дороге, хотя этому животному уже " + getAge() + " лет!");
+        System.out.println(getName() +  " слишком долго передвигается, этому животному уже " + getAge() + " лет!");
     }
 }

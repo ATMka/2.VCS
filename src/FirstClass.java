@@ -8,6 +8,6 @@ public class FirstClass {
         Animals dog = new Animals(29, "Бобик");
         dog.runForRoad();
         dog.runForDesert();
-        dog.walkingOnStreet();
+        dog.walkingOnStreet(dog.getAge(),dog.getName());
     }
 }

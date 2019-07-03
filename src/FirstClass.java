@@ -6,5 +6,6 @@ public class FirstClass {
         System.out.println("Мы тут вообще-то домашнее задание делаем. Вот смотрите, переменная one из Class2 - " + Class2.getOne());
         Animals dog = new Animals(29, "Бобик");
         dog.runForRoad();
+        dog.runForRoad();
     }
 }

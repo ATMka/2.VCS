@@ -4,5 +4,7 @@ public class FirstClass {
         SecondClass Class2 = new SecondClass(10,5);
         System.out.println("Hello");
         System.out.println("Мы тут вообще-то домашнее задание делаем. Вот смотрите, переменная one из Class2 - " + Class2.getOne());
+        Animals dog = new Animals(29, "Бобик");
+        dog.runForRoad();
     }
 }
